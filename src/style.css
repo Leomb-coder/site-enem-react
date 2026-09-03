@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f6f9;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+div:has(> h1) {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1a237e;
+  font-size: 2.2rem;
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+
+/* Card de cada prova */
+div:has(> h2) {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+div:has(> h2):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+  color: #263238;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+a {
+  display: inline-block;
+  background-color: #3949ab;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+a:hover {
+  background-color: #283593;
+}
+
+hr {
+  display: none; /* já usamos o card para separar, o hr fica redundante */
+}
