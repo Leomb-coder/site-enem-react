@@ -1,0 +1,21 @@
+{
+  "name": "calculadora-imc",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html --open chrome",
+    "build": "parcel build index.html"
+  },
+  "keywords": ["Enem"],
+  "author": "Moisés Olimpio",
+  "license": "MIT",
+  "description": "Projeto um Site para Estudos do Enem",
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^6.30.3",
+    "axios": "^1.18.1" 
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
